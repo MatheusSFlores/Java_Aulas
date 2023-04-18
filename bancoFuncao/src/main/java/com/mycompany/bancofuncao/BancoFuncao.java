@@ -3,7 +3,28 @@ package com.mycompany.bancofuncao;
 import java.util.Scanner;
 
 /**
- * @author MatheusF
+ * This is a simple banking application in Java that allows users to create accounts, check their balance, make deposits and withdrawals, and update their account information.
+It has a menu system that provides various options for users to choose from.
+
+Here's a brief overview of the functionality provided by each method:
+
+cadastro() - Allows users to create a new account by providing their name, starting balance, CPF (Brazilian personal identification number), and phone number.
+
+credito() - Allows users to make a deposit to their account by providing the account number and the amount to be deposited.
+
+debito() - Allows users to make a withdrawal from their account by providing the account number and the amount to be withdrawn.
+
+atualizar() - Allows users to update their account information, specifically their phone number.
+
+verificarUsers() - Allows users to view their account information, specifically their phone number and CPF.
+
+verificarSaldo() - Allows users to view their account balance.
+
+main() - The main method that provides a menu for users to choose from and calls the appropriate method based on their selection.
+
+Overall, this program provides basic functionality for a simple banking application.
+However, it is important to note that there are no security measures implemented, which could lead to potential vulnerabilities.
+Additionally, it is not a production-ready banking application as it lacks several necessary features such as transactions, account validation, and so on.
  */
 public class BancoFuncao {
 
