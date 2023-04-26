@@ -57,4 +57,11 @@ public class Usuario {
     public void subSaldo(double valor) {
         this.saldo -= valor;
     }
+    public String pontCpf() {
+        String cpfSemPontos = this.cpf;
+        return cpfSemPontos.substring(0, 3) + "." +
+               cpfSemPontos.substring(3, 6) + "." +
+               cpfSemPontos.substring(6, 9) + "-" +
+               cpfSemPontos.substring(9);
+    }
 }
